@@ -1,121 +1,126 @@
- 1 #include <iostream>
-  2  #include <string>
-  3  using namespace std;
-  4  
-  5  int main()
-  6  
-  7  {
-  8      int NUMERO1;
-  9      int NUMERO2;
- 10      int MAIS;
- 11      int MENOS;
- 12      int VEZES;
- 13  
- 14      float DIVIDIR;
- 15      float CALCULAR;
- 16  
- 17      string OPERADOR;
- 18  
- 19  
- 20      std::cout << ("  Digite o primeiro numero ") << std::endl;
- 21      std::cin >> (NUMERO1);
- 22  
- 23      std::cout << ("  Digite o segundo numero  ") << std::endl;
- 24      std::cin >> (NUMERO2);
- 25  
- 26      std::cout << ("  Escolha o operador  mais, menos, vezes ou dividir'") << std::endl;
- 27  
- 28  
- 29           MAIS = NUMERO1 + NUMERO2;
- 30  
- 31           MENOS = NUMERO1 - NUMERO2;
- 32  
- 33           VEZES = NUMERO1 * NUMERO2;
- 34  
- 35           DIVIDIR = NUMERO1 / NUMERO2;
- 36  
- 37      std::cin >> (OPERADOR);
- 38  
- 39  
- 40  
- 41           if  (OPERADOR == "mais")
- 42           {
- 43               std::cout << ("resultado da soma =   ") << (MAIS) << std::endl;
- 44           }
- 45  
- 46  
- 47           if (OPERADOR == "menos")
- 48           {
- 49               std::cout << ("resultado da subitracao =    ") << (MENOS) << std::endl;
- 50           }
- 51  
- 52  
- 53           if (OPERADOR == "vezes")
- 54           {
- 55               std::cout << ("resultado da mutiplicacao =   ") << (VEZES) << std::endl;
- 56           }
- 57  
- 58  
- 59           if (OPERADOR == "dividir")
- 60           {
- 61               std::cout << ("resultado da divisao =   ") << (DIVIDIR) << std::endl;
- 62           }
- 63  
- 64  
- 65           std::cin;
- 66  
- 67  
- 68  
- 69  
- 70      return 0;
- 71  }
- 72  
- 73  
- 74  
- 75          /**< Nesse algoritimo acima usei 8 variaveis  para armazenar os valores sendo  5 inteiras 2 float 1 string
- 76               as duas float e para armazenar numeros inteiro tipo o resultado de uma divisao
- 77  
- 78  
- 79  
- 80                                        ex:
- 81                                            3 / 2 = 1,5
- 82  
- 83  
- 84               entao eu solicitei e  armazenei o primeiro digito na variavel (NUMERO1)
- 85               e o segundo digito na variavel (NUMERO2)
- 86  
- 87               apos isso faco  o calculo dos numeros que estao armazenado usando esse comando
- 88  
- 89  
- 90                                      ex:
- 91                                          MAIS = NUMERO1 + NUMERO2;
- 92                                          MENOS = NUMERO1 - NUMERO2;
- 93                                          VEZES = NUMERO1 * NUMERO2;
- 94                                          DIVIDIR = NUMERO1 / NUMERO2;
- 95  
- 96              feito isso eu solicito  o nome do operador e armazeno o texto na variavel string (OPERADOR)
- 97  
- 98              e por fim eu uso (if) para comparar o operador que o usuario escolheu e mostrar o resultado na tela
- 99  
-100  
-101              como esse programa tem poucas linhas recomendo usar as variaveis assim
-102  
-103  
-104  
-105  
-106                            int NUMERO1;
-107                            int NUMERO2;
-108  
-109                            int MAIS;
-110                            int MENOS;
-111                            int VEZES;
-112                            float DIVIDIR;
-113  
-114                            string OPERADOR;
-115                            float CALCULAR;
-116  
-117           e usar bastante  espacos para o melhor dominio do que voce esta fazendo
-118  
-119  
-120  
-121                                                                                          */
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+
+{
+    int NUMERO1;
+    int NUMERO2;
+    int MAIS;
+    int MENOS;
+    int VEZES;
+
+    float DIVIDIR;
+    float CALCULAR;
+
+    string OPERADOR;
+
+
+    std::cout << ("  Digite o primeiro numero ") << std::endl;
+    std::cin >> (NUMERO1);
+
+    std::cout << ("  Digite o segundo numero  ") << std::endl;
+    std::cin >> (NUMERO2);
+
+    std::cout << ("  Escolha o operador  mais, menos, vezes ou dividir'") << std::endl;
+
+
+         MAIS = NUMERO1 + NUMERO2;
+
+         MENOS = NUMERO1 - NUMERO2;
+
+         VEZES = NUMERO1 * NUMERO2;
+
+         DIVIDIR = NUMERO1 / NUMERO2;
+
+    std::cin >> (OPERADOR);
+
+
+
+         if  (OPERADOR == "mais")
+         {
+             std::cout << ("resultado da soma =   ") << (MAIS) << std::endl;
+         }
+
+
+         if (OPERADOR == "menos")
+         {
+             std::cout << ("resultado da subitracao =    ") << (MENOS) << std::endl;
+         }
+
+
+         if (OPERADOR == "vezes")
+         {
+             std::cout << ("resultado da mutiplicacao =   ") << (VEZES) << std::endl;
+         }
+
+
+         if (OPERADOR == "dividir")
+         {
+             std::cout << ("resultado da divisao =   ") << (DIVIDIR) << std::endl;
+         }
+
+
+         std::cin;
+
+
+
+
+    return 0;
+}
+
+
+
+        /**< Nesse algoritimo acima usei 8 variaveis  para armazenar os valores sendo  5 inteiras 2 float 1 string
+             as duas float e para armazenar numeros inteiro tipo o resultado de uma divisao
+
+
+
+                                      ex:
+                                          3 / 2 = 1,5
+
+
+             entao eu solicitei e  armazenei o primeiro digito na variavel (NUMERO1)
+             e o segundo digito na variavel (NUMERO2)
+
+             apos isso faco  o calculo dos numeros que estao armazenado usando esse comando
+
+
+                                    ex:
+                                        MAIS = NUMERO1 + NUMERO2;
+                                        MENOS = NUMERO1 - NUMERO2;
+                                        VEZES = NUMERO1 * NUMERO2;
+                                        DIVIDIR = NUMERO1 / NUMERO2;
+
+            feito isso eu solicito  o nome do operador e armazeno o texto na variavel string (OPERADOR)
+
+            e por fim eu uso (if) para comparar o operador que o usuario escolheu e mostrar o resultado na tela
+
+
+            como esse programa tem poucas linhas recomendo usar as variaveis assim
+
+
+
+
+                          int NUMERO1;
+                          int NUMERO2;
+
+                          int MAIS;
+                          int MENOS;
+                          int VEZES;
+                          float DIVIDIR;
+
+                          string OPERADOR;
+                          float CALCULAR;
+
+         e usar bastante  espacos para o melhor dominio do que voce esta fazendo
+
+
+
+                                                                                        */
+
+
+
+
+
