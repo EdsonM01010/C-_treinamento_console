@@ -1,0 +1,474 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int pontos;
+    string ESPACO1;
+    string ESPACO2;      
+    string ESPACO3;       
+    string ESPACO4;      
+    string ESPACO5;      
+    string ESPACO6;
+    string ESPACO7;
+    string ESPACO8;
+    string ESPACO9;
+    string LINHA1;
+    string LINHA2;
+    string LINHA3;
+    string JB1; ///jogador com X
+    string JB2; ///jogador com X
+    string JB3; ///jogador com X
+    string JB4; ///jogador com X
+    string JB5; ///jogador com X
+    string JB6; ///jogador com X
+    string JB7; ///jogador com X
+    string JB8; ///jogador com X
+    string JB9; ///jogador com X
+    string JX1; ///jogador com O
+    string JX2; ///jogador com O
+    string JX3; ///jogador com O
+    string JX4; ///jogador com O
+    string JX5; ///jogador com O
+    string JX6; ///jogador com O
+    string JX7; ///jogador com O
+    string JX8; ///jogador com O
+    string JX9; ///jogador com O
+    ///cena do jogo
+    cout << ("regras o jogador que comeca sempre sera o X \n");
+    cout << (" nao e permitido marcar em lugar ja marcado \n");
+    LINHA1 = ("   _|_|_");
+    LINHA2 = ("   _|_|_");
+    LINHA3 = ("    | | ");
+    std::cout << (LINHA1) << endl;
+    std::cout << (LINHA2) << endl;
+    std::cout << (LINHA3) << endl;
+   ESPACO1 = "_|";
+   ESPACO2 = "_|";
+   ESPACO3 = "_";
+   ESPACO4 = "_";
+   ESPACO5 = "|_";
+   ESPACO6 = "|_";
+   ESPACO7 = " ";
+   ESPACO8 = "| |";
+   ESPACO9 = " ";
+    cin >> (JB1); ///jogar com o X
+    system("cls");
+    cout << "JOGADOR  O ";
+    cout << endl;
+    cout << endl;
+    if(JB1 == ".")
+    {
+   ESPACO1 = "X|";
+    }
+     if(JB1 == "..")
+    {
+   ESPACO2 = "X|";
+    }
+    if(JB1 == "...")
+    {
+   ESPACO3 = "X";
+    }
+    if(JB1 == "....")
+    {
+   ESPACO4 = "X";
+    }
+    if(JB1 == ".....")
+    {
+   ESPACO5 = "|X";
+    }
+    if(JB1 == "......")
+    {
+   ESPACO6 = "|X";
+    }
+    if(JB1 == ".......")
+    {
+   ESPACO7 = "X";
+    }
+    if(JB1 == "........")
+    {
+   ESPACO8 = "|X|";
+    }
+    if(JB1 == ".........")
+    {
+   ESPACO9 = "X";
+    }
+    cout << (ESPACO1) << (ESPACO2) << (ESPACO3) << endl;
+    cout << (ESPACO4) << (ESPACO5) << (ESPACO6) << endl;
+    cout << (ESPACO7) << (ESPACO8) << (ESPACO9) << endl;
+    cin >> (JX1); ///jogar com o X
+    system("cls");
+    cout << "JOGADOR  X ";
+    cout << endl;
+    cout << endl;
+     if(JX1 == ".")
+    {
+   ESPACO1 = "O|";
+    }
+     if(JX1 == "..")
+    {
+   ESPACO2 = "O|";
+    }
+    if(JX1 == "...")
+    {
+   ESPACO3 = "O";
+    }
+    if(JX1 == "....")
+    {
+   ESPACO4 = "O";
+    }
+    if(JX1 == ".....")
+    {
+   ESPACO5 = "|O";
+    }
+    if(JX1 == "......")
+    {
+   ESPACO6 = "|O";
+    }
+    if(JX1 == ".......")
+    {
+   ESPACO7 = "O";
+    }
+    if(JX1 == "........")
+    {
+   ESPACO8 = "|O|";
+    }
+    if(JX1 == ".........")
+    {
+   ESPACO9 = "O";
+    }
+    cout << (ESPACO1) << (ESPACO2) << (ESPACO3) << endl;
+    cout << (ESPACO4) << (ESPACO5) << (ESPACO6) << endl;
+    cout << (ESPACO7) << (ESPACO8) << (ESPACO9) << endl;
+    cin >> (JB2); ///jogar com o X
+    system("cls");
+    cout << "JOGADOR  O ";
+    cout << endl;
+    cout << endl;
+    if(JB2 == ".")
+    {
+   ESPACO1 = "X|";
+    }
+     if(JB2 == "..")
+    {
+   ESPACO2 = "X|";
+    }
+    if(JB2 == "...")
+    {
+   ESPACO3 = "X";
+    }
+    if(JB2 == "....")
+    {
+   ESPACO4 = "X";
+    }
+    if(JB2 == ".....")
+    {
+   ESPACO5 = "|X";
+    }
+    if(JB2 == "......")
+    {
+   ESPACO6 = "|X";
+    }
+    if(JB2 == ".......")
+    {
+   ESPACO7 = "X";
+    }
+    if(JB2 == "........")
+    {
+   ESPACO8 = "|X|";
+    }
+    if(JB2 == ".........")
+    {
+   ESPACO9 = "X";
+    }
+    cout << (ESPACO1) << (ESPACO2) << (ESPACO3) << endl;
+    cout << (ESPACO4) << (ESPACO5) << (ESPACO6) << endl;
+    cout << (ESPACO7) << (ESPACO8) << (ESPACO9) << endl;
+    cin >> (JX2); ///jogar com o X
+    system("cls");
+    cout << "JOGADOR  X ";
+    cout << endl;
+    cout << endl;
+     if(JX2 == ".")
+    {
+   ESPACO1 = "O|";
+    }
+     if(JX2 == "..")
+    {
+   ESPACO2 = "O|";
+    }
+    if(JX2 == "...")
+    {
+   ESPACO3 = "O";
+    }
+    if(JX2 == "....")
+    {
+   ESPACO4 = "O";
+    }
+    if(JX2 == ".....")
+    {
+   ESPACO5 = "|O";
+    }
+    if(JX2 == "......")
+    {
+   ESPACO6 = "|O";
+    }
+    if(JX2 == ".......")
+    {
+   ESPACO7 = "O";
+    }
+    if(JX2 == "........")
+    {
+   ESPACO8 = "|O|";
+    }
+    if(JX2 == ".........")
+    {
+   ESPACO9 = "O";
+    }
+     cout << (ESPACO1) << (ESPACO2) << (ESPACO3) << endl;
+     cout << (ESPACO4) << (ESPACO5) << (ESPACO6) << endl;
+     cout << (ESPACO7) << (ESPACO8) << (ESPACO9) << endl;
+    cin >> (JB3); ///jogar com o X
+    system("cls");
+    cout << "JOGADOR  O ";
+    cout << endl;
+    cout << endl;
+    if(JB3 == ".")
+    {
+   ESPACO1 = "X|";
+    }
+     if(JB3 == "..")
+    {
+   ESPACO2 = "X|";
+    }
+    if(JB3 == "...")
+    {
+   ESPACO3 = "X";
+    }
+    if(JB3 == "....")
+    {
+   ESPACO4 = "X";
+    }
+    if(JB3 == ".....")
+    {
+   ESPACO5 = "|X";
+    }
+    if(JB3 == "......")
+    {
+   ESPACO6 = "|X";
+    }
+    if(JB3 == ".......")
+    {
+   ESPACO7 = "X";
+    }
+    if(JB3 == "........")
+    {
+   ESPACO8 = "|X|";
+    }
+    if(JB3 == ".........")
+    {
+   ESPACO9 = "X";
+    }
+    cout << (ESPACO1) << (ESPACO2) << (ESPACO3) << endl;
+    cout << (ESPACO4) << (ESPACO5) << (ESPACO6) << endl;
+    cout << (ESPACO7) << (ESPACO8) << (ESPACO9) << endl;
+    cin >> (JX3); ///jogar com o X
+    system("cls");
+    cout << "JOGADOR  X ";
+    cout << endl;
+    cout << endl;
+    if(JX3 == ".")
+    {
+   ESPACO1 = "O|";
+    }
+     if(JX3 == "..")
+    {
+   ESPACO2 = "O|";
+    }
+    if(JX3 == "...")
+    {
+   ESPACO3 = "O";
+    }
+    if(JX3 == "....")
+    {
+   ESPACO4 = "O";
+    }
+    if(JX3 == ".....")
+    {
+   ESPACO5 = "|O";
+    }
+    if(JX3 == "......")
+    {
+   ESPACO6 = "|O";
+    }
+    if(JX3 == ".......")
+    {
+   ESPACO7 = "O";
+    }
+    if(JX3 == "........")
+    {
+   ESPACO8 = "|O|";
+    }
+    if(JX3 == ".........")
+    {
+   ESPACO9 = "O";
+    }
+    cout << (ESPACO1) << (ESPACO2) << (ESPACO3) << endl;
+    cout << (ESPACO4) << (ESPACO5) << (ESPACO6) << endl;
+    cout << (ESPACO7) << (ESPACO8) << (ESPACO9) << endl;
+    cin >> (JB4); ///jogar com o X
+    system("cls");
+    cout << "JOGADOR  O ";
+    cout << endl;
+    cout << endl;
+     if(JB4 == ".")
+    {
+   ESPACO1 = "X|";
+    }
+     if(JB4 == "..")
+    {
+   ESPACO2 = "X|";
+    }
+    if(JB4 == "...")
+    {
+   ESPACO3 = "X";
+    }
+    if(JB4 == "....")
+    {
+   ESPACO4 = "X";
+    }
+    if(JB4 == ".....")
+    {
+   ESPACO5 = "|X";
+    }
+    if(JB4 == "......")
+    {
+   ESPACO6 = "|X";
+    }
+    if(JB4 == ".......")
+    {
+   ESPACO7 = "X";
+    }
+    if(JB4 == "........")
+    {
+   ESPACO8 = "|X|";
+    }
+    if(JB4 == ".........")
+    {
+   ESPACO9 = "X";
+    }
+    cout << (ESPACO1) << (ESPACO2) << (ESPACO3) << endl;
+    cout << (ESPACO4) << (ESPACO5) << (ESPACO6) << endl;
+    cout << (ESPACO7) << (ESPACO8) << (ESPACO9) << endl;
+    cin >> (JX4); ///jogar com o X
+    system("cls");
+    cout << "JOGADOR  X ";
+    cout << endl;
+    cout << endl;
+    if(JX4 == ".")
+    {
+   ESPACO1 = "O|";
+    }
+     if(JX4 == "..")
+    {
+   ESPACO2 = "O|";
+    }
+    if(JX4 == "...")
+    {
+   ESPACO3 = "O";
+    }
+    if(JX4 == "....")
+    {
+   ESPACO4 = "O";
+    }
+    if(JX4 == ".....")
+    {
+   ESPACO5 = "|O";
+    }
+    if(JX4 == "......")
+    {
+   ESPACO6 = "|O";
+    }
+    if(JX4 == ".......")
+    {
+   ESPACO7 = "O";
+    }
+    if(JX4 == "........")
+    {
+   ESPACO8 = "|O|";
+    }
+    if(JX4 == ".........")
+    {
+   ESPACO9 = "O";
+    }
+    cout << (ESPACO1) << (ESPACO2) << (ESPACO3) << endl;
+    cout << (ESPACO4) << (ESPACO5) << (ESPACO6) << endl;
+    cout << (ESPACO7) << (ESPACO8) << (ESPACO9) << endl;
+    cin >> (JB5); ///jogar com o X
+    system("cls");
+    cout << "JOGADOR  O ";
+    cout << endl;
+    cout << endl;
+     if(JB5 == ".")
+    {
+   ESPACO1 = "X|";
+    }
+     if(JB5 == "..")
+    {
+   ESPACO2 = "X|";
+    }
+    if(JB5 == "...")
+    {
+   ESPACO3 = "X";
+    }
+    if(JB5 == "....")
+    {
+   ESPACO4 = "X";
+    }
+    if(JB5 == ".....")
+    {
+   ESPACO5 = "|X";
+    }
+    if(JB5 == "......")
+    {
+   ESPACO6 = "|X";
+    }
+    if(JB5 == ".......")
+    {
+   ESPACO7 = "X";
+    }
+    if(JB5 == "........")
+    {
+   ESPACO8 = "|X|";
+    }
+    if(JB5 == ".........")
+    {
+   ESPACO9 = "X";
+    }
+    cout << (ESPACO1) << (ESPACO2) << (ESPACO3) << endl;
+    cout << (ESPACO4) << (ESPACO5) << (ESPACO6) << endl;
+    cout << (ESPACO7) << (ESPACO8) << (ESPACO9) << endl;
+    return 0;
+}
+
+
+
+
+/**< 
+
+    observacao pode ser que der erro caso voce esteja usando linux
+    se seu caso for esse substitua 
+    
+    
+    
+             system("cls"); para o comando que limpe o console no linux
+             
+             
+             por fim muito obrigado  <3 
+             
+            e me segue  para o proximo experimento !!! 
+            
+         
+
+ */
+
