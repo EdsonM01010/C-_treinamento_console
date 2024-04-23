@@ -82,3 +82,5 @@ int main()
   system("pause");
   return 0;
 }
+
+///esse codigo tem a funcao de mostrar siclo alinhado ou seja uma conversa infinita.
